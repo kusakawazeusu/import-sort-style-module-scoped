@@ -181,6 +181,11 @@ homedir-polyfill@^1.0.1:
   dependencies:
     parse-passwd "^1.0.0"
 
+import-sort-style@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/import-sort-style/-/import-sort-style-4.2.0.tgz#ab9194424495045b6ab5fe0b51215efe25c4afb8"
+  integrity sha512-i7S8UFP298SfBkVNFfogcCyXWWn7ecAQddnLV1GlG9KJ+9Z3zaUc38873pBX/HVwY1YaIZgR6b3FLVzSmLwSmg==
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
