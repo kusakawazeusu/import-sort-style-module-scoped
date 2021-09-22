@@ -1,5 +1,5 @@
 {
-  "name": "import-sort-style-module-scoped",
+  "name": "vocus-modified-import-sort-style",
   "version": "1.0.3",
   "description": "An import-sort style that groups and sorts by module, with support for scoped modules.",
   "main": "lib/index.js",
