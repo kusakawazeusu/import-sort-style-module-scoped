@@ -85,14 +85,6 @@ export default function (styleApi: IStyleAPI): IStyleItem[] {
     },
     { separator: true },
 
-    // import … from "@utils";
-    {
-        match: isUtils,
-        sort: moduleName(unicode),
-        sortNamedMembers: alias(unicode),
-    },
-    { separator: true },
-
     // import … from "@components";
     {
         match: isComponent,
