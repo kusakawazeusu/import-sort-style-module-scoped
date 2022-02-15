@@ -56,10 +56,6 @@ export default function (styleApi: IStyleAPI): IStyleItem[] {
     return imported.moduleName.startsWith("@config");
   }
 
-  function isHoc(imported) {
-    return imported.moduleName.startsWith("@hoc");
-  }
-
   return [
     // import "foo"
     { match: and(hasNoMember, isAbsoluteModule) },

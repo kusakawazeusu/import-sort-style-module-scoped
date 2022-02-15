@@ -1,7 +1,7 @@
 {
-  "name": "vocus-modified-import-sort-style",
+  "name": "import-sort-style-for-react",
   "version": "1.0.3",
-  "description": "An import-sort style that groups and sorts by module, with support for scoped modules.",
+  "description": "An import-sort style designed for react project.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -11,8 +11,8 @@
     "test": "mocha --require ts-node/register --recursive \"test/**/*.ts\"",
     "test:watch": "mocha -w --require ts-node/register --recursive \"test/**/*.ts\""
   },
-  "author": "Cliff Koh (https://github.com/cliffkoh)",
-  "repository": "cliffkoh/import-sort-style-module-scoped",
+  "author": "Kuan Lin (https://github.com/kusakawazeusu)",
+  "repository": "sosreader/import-sort-style-module-scoped",
   "license": "ISC",
   "dependencies": {
     "import-sort-style": "^4.2.0"
